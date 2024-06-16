@@ -6,6 +6,15 @@ from datetime import datetime
 # Esegui lo screenshot utilizzando flameshot
 os.system("flameshot full --path static/images --delay 0")
 
+
+#leggi config e prendi il nome della lingua
+file = open("config.txt", "r")
+content = file.readlines()
+language = content[0]
+language = language.replace('OCR_LANGUAGE="', "")
+language =language.replace('"', "")
+
+
 # OCR dell'immagine catturata
 image_path = 'static/images/screen.png'
 ocr_text = pytesseract.image_to_string(Image.open(image_path), lang='ita_old')
