@@ -6,6 +6,7 @@ from datetime import datetime
 # Esegui lo screenshot utilizzando flameshot
 os.system("flameshot full --path static/images --delay 0")
 
+os.makedirs(os.path.dirname("static/images"), exist_ok=True)
 
 #leggi config e prendi il nome della lingua
 file = open("config.txt", "r")
