@@ -11,6 +11,5 @@ def run_app():
 
 if __name__ == "__main__":
     run_app()
-    while True:
-        take_screenshot()       
+    take_screenshot()       
           
