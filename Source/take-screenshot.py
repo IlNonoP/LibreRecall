@@ -17,7 +17,7 @@ language =language.replace('"', "")
 
 # OCR dell'immagine catturata
 image_path = 'static/images/screen.png'
-ocr_text = pytesseract.image_to_string(Image.open(image_path), lang='ita_old')
+ocr_text = pytesseract.image_to_string(Image.open(image_path), lang=language)
 # print(ocr_text)
 
 # Genera un nome univoco per i file
@@ -31,3 +31,5 @@ os.system(f"mv {image_path} static/images/{name_png}")
 # Scrivi il testo OCR su un file di testo
 with open(f"static/images/{name_txt}", 'w') as file:
     file.write(ocr_text)
+
+os.system("sleep 30")
