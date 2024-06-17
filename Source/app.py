@@ -17,13 +17,15 @@ def get_png_files():
     
     return png_files
 
-# Funzione per cercare parole chiave nei file .txt e ritornare i file PNG corrispondenti
+# Funzione per cercare parole chiave nei file .txt e ritornare i file PNG corrispondenti, ordinati per data di modifica
 def search_files(keyword):
     matching_png_files = []
     txt_files = get_txt_filenames()
+    image_dir = os.path.join(os.getcwd(), 'static', 'images')
+    
     print(f"TXT Files found: {txt_files}")  # Debug print
     for txt_file in txt_files:
-        txt_path = os.path.join(os.getcwd(), 'static', 'images', txt_file + '.txt')
+        txt_path = os.path.join(image_dir, txt_file + '.txt')
         if os.path.exists(txt_path):
             print(f"Searching in {txt_file}.txt")  # Debug print
             with open(txt_path, 'r', encoding='utf-8') as file:
@@ -32,6 +34,10 @@ def search_files(keyword):
                     matching_png_files.append(txt_file + '.png')
         else:
             print(f"File {txt_file}.txt does not exist!")  # Debug print
+    
+    # Ordina i file PNG corrispondenti per data di modifica (dal più recente al più vecchio)
+    matching_png_files.sort(key=lambda x: os.path.getmtime(os.path.join(image_dir, x)), reverse=True)
+    
     return matching_png_files
 
 # Funzione per ottenere tutti i nomi dei file .txt nella directory
