@@ -5,7 +5,7 @@ from datetime import datetime
 
 
 
-os.makedirs(os.path.dirname("static/images"), exist_ok=True)
+os.makedirs(os.path.dirname("static/images/"), exist_ok=True)
 
 
 while True:
