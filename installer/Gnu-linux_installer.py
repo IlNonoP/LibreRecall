@@ -9,7 +9,7 @@ if scelta == "1":
     
 
 elif scelta == "2":
-    os.system("sudo pacman -S flameshot tesseract-ocr tesseract-data-eng python3-pip")
+    os.system("sudo pacman -S flameshot tesseract-ocr tesseract-data-eng python-pip")
     s.system("pip install pillow pyautogui pytesseract flask --break-system-package")
     
 else:
