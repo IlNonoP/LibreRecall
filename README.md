@@ -10,7 +10,7 @@ When we search a word LibreRecall find that word in the txt file and show the co
 ![serach](https://github.com/IlNonoP/LibreRecall/assets/172937845/5968d16d-3442-4287-8cc9-cce78e9a3e24)
 
 # Installation
-##Linux:
+## Linux
 For install Libre recall on Linux you must download the repository and put in whichever directory. Move in "installer" directory and run "Gnu-linux_installer.py" (yuo need python installed). At this moment are supported Arch, and Debian installer. The program will install dependencies.
 After that you can ran main.py in the "source" directory. Connect to "127.0.0.1:5000" to use the program.
 
