@@ -4,26 +4,19 @@ import pytesseract
 from datetime import datetime
 
 
+
 os.makedirs(os.path.dirname("static/images"), exist_ok=True)
 
 
 while True:
-    # Esegui lo screenshot utilizzando flameshot
-    os.system("flameshot full --path static/images --delay 0")
-
-
-
-    #leggi config e prendi il nome della lingua
-    file = open("config.txt", "r")
-    content = file.readlines()
-    language = content[0]
-    language = language.replace('OCR_LANGUAGE="', "")
-    language =language.replace('"', "")
+    # Esegui lo screenshot 
+    os.system("flameshot full --path static/images --delay 0")       
+   
 
 
     # OCR dell'immagine catturata
     image_path = 'static/images/screen.png'
-    ocr_text = pytesseract.image_to_string(Image.open(image_path), lang=language)
+    ocr_text = pytesseract.image_to_string(Image.open(image_path))
     # print(ocr_text)
 
     # Genera un nome univoco per i file
