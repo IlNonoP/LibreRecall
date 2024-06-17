@@ -15,7 +15,7 @@ while True:
 
 
     # OCR dell'immagine catturata
-    image_path = 'static/images/screen.png'
+    image_path = 'static/images/images.png'
     ocr_text = pytesseract.image_to_string(Image.open(image_path))
     # print(ocr_text)
 
