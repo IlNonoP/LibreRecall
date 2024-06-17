@@ -1,0 +1,12 @@
+pip:
+    pyllow
+    pyautogui
+    pytesseract
+    
+   
+
+
+from package manager linux:    
+    flameshot
+    tesseract-ocr
+    tesseract-data-eng
