@@ -1,1 +1,0 @@
-flameshot config -f "screen"
