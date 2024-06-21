@@ -1,4 +1,6 @@
 # LibreRecall
+![logo](https://github.com/IlNonoP/LibreRecall/assets/172937845/798030f6-af36-4c81-bf69-e86b3ee37ab2)
+
 Hi! This is an open surce alternative to Microsoft Recall!
 Thi project was born because OpenRecall (https://github.com/openrecall/openrecall) doesn't work on my wayland session
 At this moment LibreRecall is for:
