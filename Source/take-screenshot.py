@@ -19,6 +19,7 @@ os.system("flameshot full --path static/images --delay 0")
     # OCR dell'immagine catturata
 image_path = 'static/images/screen.png'
 ocr_text = pytesseract.image_to_string(Image.open(image_path))
+ocr_text = ocr_text.lower()
     # print(ocr_text)
 
     # Genera un nome univoco per i file
