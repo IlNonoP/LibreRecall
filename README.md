@@ -16,6 +16,8 @@ To install Libre recall on Linux you can use the relase section to download the 
 # Known Issues
 On gnome there is a confirmation screen for all the screenshot
 
+# Email:
+IlNonoP@outlook.it
 
 
 
