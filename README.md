@@ -1,6 +1,6 @@
 # LibreRecall
 Hi! This is an open surce alternative to Microsoft Recall!
-Thi project was born because OpenRecall (https://github.com/openrecall/openrecall) doesn't work on my wayland session (i don't know why)
+Thi project was born because OpenRecall (https://github.com/openrecall/openrecall) doesn't work on my wayland session
 At this moment LibreRecall is for:
 Linux (Installation script included)
 # Intoruction
