@@ -2,9 +2,12 @@ import subprocess
 import time
 import os
 
+
 def take_screenshot():
-    os.system("python3 take-screenshot.py")
-    #subprocess.Popen(['python3', 'take-screenshot.py'])
+    while True:    
+        os.system("python3 take-screenshot.py")
+        os.system("sleep 30")
+   
 
 def run_app():
     subprocess.Popen(['python3', 'app.py'])
