@@ -17,6 +17,7 @@ To install Libre recall on Linux you can use the relase section to download the 
 
 # Known Issues
 On gnome there is a confirmation screen for all the screenshot
+Sometimes you may need to insert the "Tesseract-data-eng" package manually in addition to installing with the installation file
 
 # Email:
 IlNonoP@outlook.it
