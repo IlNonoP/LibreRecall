@@ -16,8 +16,9 @@ When we search a word, LibreRecall find that word in the txt file and show the c
 To install Libre recall on Linux you can use the relase section to download the latest version. After downloading, you can unzip the archive, place the program files and folders anywhere on the system as long as they are in the same directory. Once this is done, you can start the "Gnu-linux_installer.py". After that, you can run main.py. Connect to "127.0.0.1:5000" to use the program.
 
 # Known Issues
-On gnome there is a confirmation screen for all the screenshot
-Sometimes you may need to insert the "Tesseract-data-eng" package manually in addition to installing with the installation file
+[GNOME < 42] There is a confirmation screen for all the screenshot (Zorin OS ask always)
+
+[Arch linux] Sometimes you may need to insert the "Tesseract-data-eng" package manually in addition to installing with the installation file
 
 # Email:
 IlNonoP@outlook.it
