@@ -16,7 +16,7 @@ while True:
         
 
     elif scelta == "2":
-        os.system("sudo pacman -S flameshot tesseract-ocr tesseract-data-eng python-pip tesseract-data-eng")
+        os.system("sudo pacman -S flameshot tesseract tesseract-data-eng python-pip tesseract-data-eng")
         os.system("pip install pillow pyautogui pytesseract flask --break-system-package")
         print(" ")
         print("Packages installation finished")
