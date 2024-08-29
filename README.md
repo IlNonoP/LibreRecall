@@ -1,14 +1,12 @@
 # LibreRecall
 ![logo](https://github.com/IlNonoP/LibreRecall/assets/172937845/798030f6-af36-4c81-bf69-e86b3ee37ab2)
 
-Hi! This is an open surce alternative to Microsoft Recall!
-Thi project was born because OpenRecall (https://github.com/openrecall/openrecall) doesn't work on my wayland session
-At this moment LibreRecall is for:
-Linux (Installation script included)
+Hello! This is an alternative for Linux to Microsoft Recall! This project was born because OpenRecall didn't work for me (https://github.com/openrecall/openrecall) 
+
 # Intoruction
-Every 30 second the program take a screeshot, and whit an OCR read the screen and save the text in a file whit the same name of the screenshoot. On the home you can see the all the screenshot and the date:
+Every 30 seconds the program takes a screenshot and an OCR reads the screen and saves the text in a file with the same name as the screenshoot. On the house you can see the whole screenshot and the date:
 ![home](https://github.com/IlNonoP/LibreRecall/assets/172937845/cb03c9eb-b3d2-416b-8e1e-7ac641e6aaa0)
-When we search a word, LibreRecall find that word in the txt file and show the correspondent image on the page:
+When we search for a word, LibreRecall finds that word in the txt file and shows the corresponding image on the page:
 ![serach](https://github.com/IlNonoP/LibreRecall/assets/172937845/5968d16d-3442-4287-8cc9-cce78e9a3e24)
 
 # Installation
