@@ -13,7 +13,12 @@ When we search a word, LibreRecall find that word in the txt file and show the c
 
 # Installation
 ## Linux
-To install Libre recall on Linux you can use the relase section to download the latest version. After downloading, you can unzip the archive, place the program files and folders anywhere on the system as long as they are in the same directory. Once this is done, you can start the "Gnu-linux_installer.py". After that, you can run main.py. Connect to "127.0.0.1:[your port]" to use the program.
+You have two way to dowload the program:
+1) You can use the relase section to download the latest version. After downloading, you can unzip the archive, place the program files and folders anywhere on the system as long as they are in the same directory.
+2) You can clone the repository and go to the "Source" folder
+
+Once this is done, you can start the "Gnu-linux_installer.py".
+After that, you can run main.py. Connect to "127.0.0.1:[your port]" to use the program.
 Your port is by default 5000, but you may have changed it in the configuration file.
 
 # Config File
