@@ -13,7 +13,23 @@ When we search a word, LibreRecall find that word in the txt file and show the c
 
 # Installation
 ## Linux
-To install Libre recall on Linux you can use the relase section to download the latest version. After downloading, you can unzip the archive, place the program files and folders anywhere on the system as long as they are in the same directory. Once this is done, you can start the "Gnu-linux_installer.py". After that, you can run main.py. Connect to "127.0.0.1:5000" to use the program.
+To install Libre recall on Linux you can use the relase section to download the latest version. After downloading, you can unzip the archive, place the program files and folders anywhere on the system as long as they are in the same directory. Once this is done, you can start the "Gnu-linux_installer.py". After that, you can run main.py. Connect to "127.0.0.1:[your port]" to use the program.
+Your port is by default 5000, but you may have changed it in the configuration file.
+
+# Config File
+The configuration file (added in version 0.5) allows for greater user control. The file is created to work right away... so if you are not technical you can either jump during installation and leave the default options. You can reconfigure it either with a simple text editor or with the installation script (recommended). File looks like this:
+```
+LibreRecall, github link: https://github.com/IlNonoP/LibreRecall
+PORT=5000 #defaul 5000
+IMAGES_PATH="static/images/" #the directory where the images and.txt files will be saved. default static/images/ (must end with /)
+TIME_BETWEEN_SCREENSHOT=30 #the time in seconds between screenshots
+REMOTE_ACCESS=false #by default it is false, it allows you to connect to the web interface via the IP of the computer on which it is running
+```
+Each option is already commented on, but let's see them specifically
+**PORT**: Indicates the port on which the service will be displayed
+**IMAGES_PATH**: Indicates the path where you want to save images
+**TIME_BETWEEN_SCREENSHOT**: The expected time in seconds between screenshots
+**REMOTE_ACCESS**: Ability or disable the possibility of accessing it via another PC
 
 # Known Issues
 [GNOME < 42] There is a confirmation screen for all the screenshot (Zorin OS ask always)
