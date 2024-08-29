@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Risultati of search</title>
+    <title>Risultati della ricerca</title>
     <link rel="icon" href="static/ico.ico" type="image/x-icon">
     <style>
         .image-container {
@@ -63,7 +63,7 @@
         {% if png_files %}
             {% for png_file in png_files %}
             <div>
-                <img src="{{ url_for('static', filename='images/' + png_file) }}" alt="{{ png_file }}">
+                <img src="{{ url_for('serve_image', filename=png_file) }}" alt="{{ png_file }}">
                 <p>{{ png_file }}</p>
             </div>
             {% endfor %}
