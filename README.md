@@ -3,7 +3,7 @@
 
 Hello! This is an alternative for Linux to Microsoft Recall! This project was born because OpenRecall didn't work for me (https://github.com/openrecall/openrecall) 
 
-# Intoruction
+# Introduction
 Every 30 seconds the program takes a screenshot and an OCR reads the screen and saves the text in a file with the same name as the screenshoot. On the house you can see the whole screenshot and the date:
 ![home](https://github.com/IlNonoP/LibreRecall/assets/172937845/cb03c9eb-b3d2-416b-8e1e-7ac641e6aaa0)
 When we search for a word, LibreRecall finds that word in the txt file and shows the corresponding image on the page:
