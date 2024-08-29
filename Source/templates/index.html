@@ -68,10 +68,10 @@
     <div class="image-container">
         {% for png_file in png_files %}
         <div>
-            <img src="{{ url_for('static', filename='images/' + png_file) }}" alt="{{ png_file }}">
+            <img src="{{ url_for('serve_image', filename=png_file) }}" alt="{{ png_file }}">
             <p>{{ png_file }}</p>
         </div>
         {% endfor %}
-    </div>
+    </div>     
 </body>
 </html>
