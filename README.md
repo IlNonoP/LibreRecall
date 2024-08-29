@@ -26,9 +26,13 @@ TIME_BETWEEN_SCREENSHOT=30 #the time in seconds between screenshots
 REMOTE_ACCESS=false #by default it is false, it allows you to connect to the web interface via the IP of the computer on which it is running
 ```
 Each option is already commented on, but let's see them specifically
+
 **PORT**: Indicates the port on which the service will be displayed
+
 **IMAGES_PATH**: Indicates the path where you want to save images
+
 **TIME_BETWEEN_SCREENSHOT**: The expected time in seconds between screenshots
+
 **REMOTE_ACCESS**: Ability or disable the possibility of accessing it via another PC
 
 # Known Issues
