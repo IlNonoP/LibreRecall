@@ -24,6 +24,7 @@ PORT=5000 #defaul 5000
 IMAGES_PATH="static/images/" #the directory where the images and.txt files will be saved. default static/images/ (must end with /)
 TIME_BETWEEN_SCREENSHOT=30 #the time in seconds between screenshots
 REMOTE_ACCESS=false #by default it is false, it allows you to connect to the web interface via the IP of the computer on which it is running
+SERVER=false #by default is false. This option can turn off screenshoot function. LibreRecall. The program will only become a self-hosted web page, you just have to find a way to save the files created by LibreRecall on your PC in your server
 ```
 Each option is already commented on, but let's see them specifically
 
@@ -34,6 +35,8 @@ Each option is already commented on, but let's see them specifically
 **TIME_BETWEEN_SCREENSHOT**: The expected time in seconds between screenshots
 
 **REMOTE_ACCESS**: Ability or disable the possibility of accessing it via another PC
+
+**SERVER**: It will disable Screenshot capture and will only serve as a web page to access the data
 
 # Known Issues
 [GNOME < 42] There is a confirmation screen for all the screenshot (Zorin OS ask always)
